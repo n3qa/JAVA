@@ -1,4 +1,4 @@
-package cardrank;
+package abstraction.cardrank;
 
 import java.util.Scanner;
 

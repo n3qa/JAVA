@@ -1,4 +1,4 @@
-package greedyTimes;
+package abstraction.greedyTimes;
 
 public class Gold {
 

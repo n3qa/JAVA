@@ -1,4 +1,4 @@
-package studentSystem;
+package abstraction.studentSystem;
 
 public class Student {
     private String name;

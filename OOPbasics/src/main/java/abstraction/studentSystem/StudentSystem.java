@@ -1,4 +1,4 @@
-package studentSystem;
+package abstraction.studentSystem;
 
 import java.util.HashMap;
 import java.util.Map;

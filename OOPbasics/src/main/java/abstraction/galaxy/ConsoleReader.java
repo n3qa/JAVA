@@ -1,4 +1,4 @@
-package galaxy;
+package abstraction.galaxy;
 
 import java.util.Scanner;
 

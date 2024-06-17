@@ -1,4 +1,4 @@
-package greedy;
+package abstraction.greedy;
 
 import java.util.Collection;
 import java.util.LinkedHashMap;

@@ -1,4 +1,4 @@
-package card;
+package abstraction.card;
 
 public enum CardSuits {
     CLUBS(0),

@@ -1,4 +1,4 @@
-package pointInRectangle;
+package abstraction.pointInRectangle;
 
 import java.util.Scanner;
 

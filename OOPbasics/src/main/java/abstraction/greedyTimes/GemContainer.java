@@ -1,4 +1,4 @@
-package greedyTimes;
+package abstraction.greedyTimes;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

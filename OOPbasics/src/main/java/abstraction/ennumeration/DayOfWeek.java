@@ -1,4 +1,4 @@
-package ennumeration;
+package abstraction.ennumeration;
 
 public enum DayOfWeek {
     SUNDAY("Sunday"),

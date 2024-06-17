@@ -1,4 +1,4 @@
-package galaxy;
+package abstraction.galaxy;
 
 public class Main {
 

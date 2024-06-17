@@ -1,4 +1,4 @@
-package studentSystem;
+package abstraction.studentSystem;
 
 import java.util.Scanner;
 

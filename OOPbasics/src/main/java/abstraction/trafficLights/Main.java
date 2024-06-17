@@ -9,21 +9,21 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Color[] signals = Arrays.stream(scanner.nextLine().split(" "))
+        trafficLights.Color[] signals = Arrays.stream(scanner.nextLine().split(" "))
                 .map(String::toUpperCase)
-                .map(Color::valueOf).toArray(Color[]::new);
+                .map(trafficLights.Color::valueOf).toArray(trafficLights.Color[]::new);
 
-        List<TrafficLight> trafficLights = new ArrayList<>();
+        List<trafficLights.TrafficLight> trafficLights = new ArrayList<>();
 
-        for (Color color: signals) {
-            TrafficLight trafficLight = new TrafficLight(color);
+        for (trafficLights.Color color: signals) {
+            trafficLights.TrafficLight trafficLight = new trafficLights.TrafficLight(color);
             trafficLights.add(trafficLight);
         }
 
         int n = Integer.parseInt(scanner.nextLine());
 
         for (int i = 0; i < n; i++) {
-            for (TrafficLight trafficLight: trafficLights) {
+            for (trafficLights.TrafficLight trafficLight: trafficLights) {
                 trafficLight.changeColor();
                 System.out.print(trafficLight + " ");
             }

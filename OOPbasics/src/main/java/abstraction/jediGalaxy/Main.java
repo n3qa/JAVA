@@ -1,4 +1,4 @@
-package jediGalaxy;
+package abstraction.jediGalaxy;
 
 import java.util.Arrays;
 import java.util.Scanner;

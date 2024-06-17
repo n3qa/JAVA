@@ -1,4 +1,4 @@
-package cardrank;
+package abstraction.cardrank;
 
 public enum CardRanks {
     ACE(),

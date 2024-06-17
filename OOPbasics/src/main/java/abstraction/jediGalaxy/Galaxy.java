@@ -1,4 +1,4 @@
-package jediGalaxy;
+package abstraction.jediGalaxy;
 
 public class Galaxy {
 

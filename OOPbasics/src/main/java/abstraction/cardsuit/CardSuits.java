@@ -1,4 +1,4 @@
-package cardsuit;
+package abstraction.cardsuit;
 
 public enum CardSuits {
     CLUBS,

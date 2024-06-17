@@ -1,4 +1,4 @@
-package pointInRectangle;
+package abstraction.pointInRectangle;
 
 public class Rectangle {
     private Point bottomLeft;
